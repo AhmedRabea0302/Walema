@@ -782,6 +782,139 @@ img{
 .grid .one-kitchen a .icon {
     margin-top: 5px;
 }
+
+/********************* Kitchen Dashboard Page ********************/
+
+.content .admin-sidebar {
+    margin-left: 15px;
+    margin-right: 15px;
+    background: #F5F5F5;
+    border: 1px solid #E6E6E6;
+    padding: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    width: 100%;
+    z-index: -2;
+}
+
+.content .admin-sidebar .admin-item {
+    text-align: center;
+    border-bottom: 1px solid #E1E1E1;
+    line-height: 1.2;
+    padding-bottom: 30px;
+}
+
+.content .admin-sidebar .admin-item .image {
+    width: 100px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    border: 5px solid #e7604a;
+    padding: 2px;
+}
+
+.content .admin-sidebar .admin-item .image img {
+    border-radius: 50%;
+}
+
+.content .admin-sidebar .admin-item h4 {
+    line-height: 1.2;
+    margin: 0 0 5px;
+    color: #333;;
+}
+
+.content .admin-sidebar .admin-user-action {
+    text-align: center;
+    border-bottom: 1px solid #E1E1E1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content .admin-sidebar .admin-user-action .btn-sm{
+    padding: 0 10px;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    background: #e7604a;
+    border-color: #e7604a;
+    color: #FFF !important;
+    font-weight: 600;
+}
+
+.content .admin-sidebar .admin-user-menu {
+    padding: 20px;
+    margin-top: -10px;
+}
+
+.content .admin-sidebar .admin-user-menu li {
+    border-bottom: 1px dotted #E1E1E1;
+}
+
+.content .admin-sidebar .admin-user-menu li a {
+    display: block;
+    font-weight: 400;
+    color: #939393;
+    line-height: 1.2;
+    margin: 12px 0;
+    position: relative;
+    padding-left: 20px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.content .admin-sidebar .admin-user-menu li a.active {
+    font-weight: 600;
+    color: #e7604a;
+}
+
+.content .admin-sidebar .admin-user-menu li a i {
+    margin-left: 5px;
+}
+
+.content .admin-content-wrapper {
+    background: #EDF2F2;
+    border-radius: 3px;
+    text-align: center;
+    padding: 200px 30px;
+    margin: 40px 0 20px;
+}
+
+.content .admin-section-title {
+    line-height: 1.2;
+    margin-bottom: 15px;
+    padding: 20px 0;
+    text-transform: lowercase;
+    font-size: 34px;
+    color: #656565;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.content .admin-content-wrapper .icon {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 40px;
+    color: #FFF;
+    background: #e7604a;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.content .admin-content-wrapper h4 {
+    color: #333;
+    margin: 25px 0 15px 0;
+}
+
+.content .admin-content-wrapper a {
+    padding: 5px 63px;
+    background: #e7604a;
+    border-color: #e7604a;
+    color: #FFF !important;
+    font-weight: 500;
+    border-radius: 4px;
+}
 /********************* Media Queries ********************/
 @media all and (max-width:767px){
     .section-icons .col-md-3{
