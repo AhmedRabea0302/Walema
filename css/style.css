@@ -682,7 +682,7 @@ img{
 }
 
 
-/********************* Kitchen Page ********************/
+/********************* Kitchens Page ********************/
 
 .search {
     background: #e7604a;
@@ -730,6 +730,12 @@ img{
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
+    transition: 0.3s ease-in-out all;
+}
+
+.grid .one-kitchen:hover {
+    transform: scale(1.06);
+    box-shadow: 1px 1px 2px 2px #d9edf7;
 }
 
 .grid .one-kitchen a {
@@ -850,6 +856,11 @@ img{
 
 .content .admin-sidebar .admin-user-menu li {
     border-bottom: 1px dotted #E1E1E1;
+    transition: .3s ease-in-out all;
+}
+
+.content .admin-sidebar .admin-user-menu li:hover a{
+    color: #e7604a;
 }
 
 .content .admin-sidebar .admin-user-menu li a {
@@ -861,7 +872,6 @@ img{
     position: relative;
     padding-left: 20px;
     font-size: 13px;
-    letter-spacing: 1px;
 }
 
 .content .admin-sidebar .admin-user-menu li a.active {
@@ -965,7 +975,8 @@ img{
 }
 
 .restaurant-item:hover {
-    box-shadow: 1px 1px 1px 1tpx #d9edf7;
+    box-shadow: 1px 1px 1px 1px #d9edf7;
+    transform: scale(1.06);
 }
 
 .restaurant-item > a {
@@ -1039,6 +1050,22 @@ img{
 }
 
 .restaurant-item .content-bottom .sub-category a:hover {
+    color: #e7604a;
+}
+
+/********************* Single Order Page ********************/
+
+.single-order {
+
+}
+
+.single-order p {
+    border-bottom: 1px dotted #e7604a;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.single-order p span {
     color: #e7604a;
 }
 /********************* Media Queries ********************/
