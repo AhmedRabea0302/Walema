@@ -915,6 +915,132 @@ img{
     font-weight: 500;
     border-radius: 4px;
 }
+
+/********************* User Profile Page ********************/
+
+.user-content-wrapper form a {
+    margin-bottom: 50px;
+}
+
+.user-content-wrapper form label {
+    font-size: 15px;
+    color: #424242;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    margin: 0 0 10px;
+    line-height: 1.2;
+}
+
+.user-content-wrapper form input:not("file") {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+}
+
+.user-content-wrapper form input:focus, .user-content-wrapper form textarea {
+    border: 1px solid #e7604a;
+    outline: 0;
+}
+
+/********************* User Favourite Restaurants Page ********************/
+
+.restaurant-item {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    background: #EDF2F2;
+    width: 100%;
+    position: relative;
+    line-height: 1.4;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out all;
+}
+
+.restaurant-item:hover {
+    box-shadow: 1px 1px 1px 1tpx #d9edf7;
+}
+
+.restaurant-item > a {
+    color: #939393;
+    font-weight: 400;
+}
+
+.restaurant-item .image {
+    border: 2px solid #EDF2F2;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+.restaurant-item .image .vertical-middle {
+    display: table-cell;
+    vertical-align: middle;
+    background: #FFF;
+    height: 100%;
+    width: 100%;
+}
+
+.restaurant-item .image .vertical-middle img {
+    width: 100%;
+    display: block;
+}
+
+.restaurant-item .content {
+    padding: 35px 15px 15px;
+}
+
+.restaurant-item .content h4 {
+    color: #333;
+    font-weight: 400;
+    margin: 0 0 5px;
+    line-height: 1.2;
+    position: relative;
+}
+
+.restaurant-item .content p {
+    margin-bottom: 15px;
+}
+
+.restaurant-item .content p strong, .restaurant-item .content p i {
+    color: #e7604a !important;
+}
+
+.restaurant-item .content p.date {
+    color: #A8A8A8;
+    font-size: 12px;
+}
+
+.restaurant-item .content-bottom {
+    border-top: 1px solid #FFF;
+    padding: 20px 15px 15px;
+
+}
+
+.restaurant-item .content-bottom .sub-category {
+    font-size: 12px;
+    margin: 0;
+}
+
+.restaurant-item .content-bottom .sub-category a {
+    font-size: 11px;
+    padding: 3px 7px;
+    border-color: #DDD;
+    color: #939393;
+    border: 1px solid #CCC;
+    transition: .3s ease-in-out all;
+}
+
+.restaurant-item .content-bottom .sub-category a:hover {
+    color: #e7604a;
+}
 /********************* Media Queries ********************/
 @media all and (max-width:767px){
     .section-icons .col-md-3{
