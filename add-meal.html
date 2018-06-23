@@ -102,23 +102,77 @@
 
                 <!-- === Content === -->
                 <div class="col-md-9 col-sm-6 col-xs-12">
-
-                    <div class="admin-section-title">
-                        <h2>مرحبا بك أبو ميمي !</h2>
-                    </div>
-
-                    <div class="single-order">
-                        <h4 class="lead">طلب: عصام أبو أوره</h4>
-                        <br>
-                        <div class="">
-                            <p class="lead"><span>اسم الطلب:</span> عصام أبو أوره</p>
-                            <p class="lead"><span>الوجبات:</span> عكاوي, كوارع, أرز</p>
-                            <p class="lead"><span>معاد التسليم:</span> 15/10/2018 - 8:00 PM</p>
-                            <p class="lead"><span>اسم العميل:</span> عصام أبو أوره</p>
-                            <p class="lead"><span>مكان التسليم:</span> المنوفيه, شبين الكوم, شارع الجلاء البحري, مبني 3, الدور الرابع</p>
-                            <p class="lead"><span>الحاله:</span>قيد التنفيذ</p>
-                            <p class="lead"><span>السعر:</span> 200LE</p>
+                    <div class="user-content-wrapper">
+                        <div class="admin-section-title">
+                            <h2>أضف وجبه</h2>
                         </div>
+                        <form action="">
+                            <div class="col-sm-6 col-md-4">
+
+                                <div class="form-group bootstrap-fileinput-style-01">
+                                    <label>صورة الوجبه</label>
+                                    <input name="form-register-photo" id="form-register-photo" type="file">
+                                    <span class="font12 font-italic">الصوره لا يجب أن تكون أكبر من 250KB **</span>
+                                </div>
+
+                            </div>
+                            <div class="clearfix"></div>
+
+                            <div class="col-sm-6 col-md-4">
+                                <div class="form-group">
+                                    <label>اسم الوجبه</label>
+                                    <input class="form-control" value="" type="text">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4">
+
+                                <div class="form-group">
+                                    <label>مكونات الوجبه</label>
+                                    <input class="form-control" value="" type="text">
+                                </div>
+
+                            </div>
+
+                            <div class="clearfix"></div>
+
+                            <div class="col-sm-6 col-md-8">
+                                <div class="form-group">
+                                    <label for="sel1">سعر الوجبه</label>
+                                    <select class="form-control" id="sel1">
+                                        <option>15</option>
+                                        <option>16</option>
+                                        <option>17</option>
+                                        <option>18</option>
+                                        <option>19</option>
+                                        <option>20</option>
+                                        <option>21</option>
+                                        <option>25</option>
+                                        <option>26</option>
+                                        <option>27</option>
+                                        <option>28</option>
+                                        <option>29</option>
+                                        <option>30</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+
+                            <div class="col-sm-12 col-md-12">
+
+                                <div class="form-group bootstrap3-wysihtml5-wrapper">
+                                    <label>وصفه الوجبه</label>
+                                    <textarea class="bootstrap3-wysihtml5 form-control" placeholder="" style="height: 200px;"></textarea>
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-12 mt-10">
+                                <a href="#" class="btn btn-primary">حفظ التعديلات</a>
+                            </div>
+
+                        </form>
                     </div>
                 </div>
             </div>
