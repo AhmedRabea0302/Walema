@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Meta Tags
+        ========================== -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <!-- Site Title
+        ========================== -->
+        <title>التسجيل</title>
+                
+        <!-- Favicon
+		===========================-->
+		<link rel="shortcut icon" type="image/x-icon" href="images/fav.png">
+        
+        
+        <!-- Web Fonts
+        ========================== -->
+        
+        <!-- Base & Vendors
+        ========================== -->
+        <link href="vendor/bootstrap/css/bootstrap-ar.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <!-- Site Style
+        ========================== -->
+        <link rel="stylesheet" href="css/style.css">
+        
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+    <!-- =================== Navbar Section ============ -->
+    <section class="header-part">
+        <nav class="navbar navbar-default">
+            <div class="container">
+
+                <div class="col-md-9 col-xs-12">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">الرئيسية <span class="sr-only">(current)</span></a></li>
+                            <li><a href="#">المطابخ</a></li>
+                            <li><a href="#">من نحن</a></li>
+                            <li><a href="#">المدونة</a></li>
+                            <li><a href="#">تسجيل الدخول</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+
+                <div class="col-md-3 col-xs-12">
+                    <div class="logo-wrapper">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="" href="#">
+                                <img class="center-block img-responsive" src="images/logo.png" alt="Walema Logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /.container-fluid -->
+        </nav>
+
+    </section><!-- End Header-part -->
+
+    <!-- =================== Navbar Section ============ -->
+    <section class="register">
+             <div class="register">
+              <div class="register-form">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="#signIn" aria-controls="home" role="tab" data-toggle="tab">
+                            <i class="fa fa-sign-in"></i>
+                            تسجيل دخول
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#signUp" aria-controls="home" role="tab" data-toggle="tab">
+                            <i class="fa fa-pencil"></i>
+                            حساب جديد
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#contact" aria-controls="home" role="tab" data-toggle="tab">
+                            <i class="fa fa-envelope"></i>
+                            تواصل
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <form role="tabpanel" class="tab-pane fade in active" id="signIn">
+                        <h3 class="form-title">تسجيل دخول</h3>
+                        <div class="form-group">
+                            <label>اسم المستخدم</label>
+                            <input class="form-control" value="" type="text" placeholder="ادخل اسم المستخدم">
+                        </div>
+                        <div class="form-group">
+                            <label>الرقم السري</label>
+                            <input class="form-control" value="" type="password" placeholder="ادخل الرقم السري">
+                        </div>
+
+                        <div class="form-group">
+                            <select class="form-control selectaboxa">
+                                <option value="">طباخ</option>
+                                <option value="">مستخدم عادي</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-primary form-control"> دخول</button>
+                        </div>
+
+                        <div class="forget">
+                            <a href="#"> هل نسيت الرقم السري ؟</a>
+                        </div>
+                    </form>
+                    <form role="tabpanel" class="tab-pane fade in" id="signUp">
+                        <h3 class="form-title">حساب جديد</h3>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>اسم المستخدم</label>
+                                    <input class="form-control" value="" type="text" placeholder="ادخل اسم المستخدم">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label> البريد الالكتروني</label>
+                                    <input class="form-control" value="" type="email" placeholder="ادخل  البريد الالكتروني">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>الرقم السري</label>
+                                    <input class="form-control" value="" type="password" placeholder="ادخل الرقم السري">
+                                </div>
+                            </div>
+                             <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>تاكيد الرقم السري</label>
+                                    <input class="form-control" value="" type="password" placeholder="تاكيد الرقم السري">
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label>اختار النوع</label>
+                                    <select class="form-control selectaboxa">
+                                        <option value="">طباخ</option>
+                                        <option value="">مستخدم عادي</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div> <!-- End row -->
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <button class="btn btn-primary form-control"> تسجيل</button>
+                            </div>
+                        </div>
+                    </form>
+                    <form role="tabpanel" class="tab-pane fade in" id="contact">
+                        <h3 class="form-title">تواصل</h3>
+                        <div class="form-group">
+                            <label>الاسم </label>
+                            <input class="form-control" value="" type="text" placeholder="ادخل  الاسم">
+                        </div>
+                        <div class="form-group">
+                            <label>البريد الالكتروني </label>
+                            <input class="form-control" value="" type="email" placeholder="ادخل  البريد الالكتروني">
+                        </div>
+                        <div class="form-group">
+                            <label>العنوان </label>
+                            <input class="form-control" value="" type="text" placeholder="ادخل  العنوان للموضوع">
+                        </div>
+                        <div class="form-group">
+                            <label>رسالتك </label>
+                            <textarea class="form-control" value=""  placeholder="ادخل  العنوان للموضوع"></textarea>
+                        </div>
+                       <div class="form-group">
+                            <button class="btn btn-primary form-control"> ارسال</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div> <!-- End register-form -->
+          </div> <!-- End register -->
+         </section><!-- End register -->
+
+    <!-- =================== Footer Section ============ -->
+    <footer class="footer">
+        <div class="upper-foot">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="text-center">
+                            <i class="fa fa-envelope-o"></i>
+                            ابقى على تواصل وانضم لنشرتنا الاخبارية
+                        </h2>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3">
+                            <form action="#">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="subscribe" placeholder="أدخل بريدك الإلكتروني">
+                                    <button class="btn btn-primary">شارك</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="lower-foot">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p class="copy-right">© Copyright 2018 Walema</p>
+                    </div>
+                    <div class="col-sm-4">
+                    </div>
+                    <div class="col-sm-4">
+                        <ul class="list-unstyled pull-right">
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-youtube"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="vendor/jquery/jquery.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>
